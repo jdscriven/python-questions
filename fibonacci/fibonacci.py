@@ -6,8 +6,8 @@ def fibonacci(n=None):
     Args:
         n: (optional) if provided, limit the number of generated elements to n,
         otherwise the generator will produce the infinite sequence
-        Returns:
-            a generator over the fibbonacci numbers (starting from 0)
+    Returns:
+        a generator over the fibbonacci numbers (starting from 0)
     """
     def fibonacci_generator():
         a=0
