@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# run pylint for all .py files
+find  -name "*.py" -exec pylint --reports=n '{}' \;
