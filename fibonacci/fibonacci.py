@@ -1,6 +1,6 @@
 from itertools import islice
 
-def fibonacci(limit=None):
+def fib(limit=None):
     """Return a generator of elements from the fibonacci sequence.
 
     Args:

@@ -5,7 +5,7 @@ Some questions that I was asked to answer.
 
 Example output::
 
- $ python3 print_first_20_fibonacci.py 
+ $ python3 print_first_n_fibonacci.py 20
  0
  1
  1
@@ -27,9 +27,9 @@ Example output::
  2584
  4181
  
- $ python3 print_first_1000_fibonacci.py | wc --lines
+ $ python3 print_first_n_fibonacci.py 1000 | wc --lines
  1000
  
- $ python3 print_first_1000_fibonacci.py | tail -n1
+ $ python3 print_first_n_fibonacci.py 1000 | tail -n1
  26863810024485359386146727202142923967616609318986952340123175997617981700247881689338369654483356564191827856161443356312976673642210350324634850410377680367334151172899169723197082763985615764450078474174626
  
