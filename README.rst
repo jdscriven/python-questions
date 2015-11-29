@@ -1,7 +1,9 @@
 python-questions
 ================
 
-Some questions that I was asked to answer.
+An implementation of the fibonacci sequence that I was ask to complete.
+
+This implementation assumes the sequence starts from 0.
 
 Example output::
 
@@ -32,4 +34,16 @@ Example output::
  
  $ python3 print_first_n_fibonacci.py 1000 | tail -n1
  26863810024485359386146727202142923967616609318986952340123175997617981700247881689338369654483356564191827856161443356312976673642210350324634850410377680367334151172899169723197082763985615764450078474174626
+
+ $ ./run-tests 
+ ........
+ ----------------------------------------------------------------------
+ Ran 8 tests in 0.001s
  
+ OK
+ ........
+ ----------------------------------------------------------------------
+ Ran 8 tests in 0.001s
+ 
+ OK
+  
